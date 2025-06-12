@@ -72,6 +72,56 @@
         
         }
 
+        .prog-box {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-weight: bold;
+            color: #FFF5D6;
+            background-color: #183047;
+            padding-top: 10px;
+            padding-bottom: 3px;
+            padding-left: 30px;
+            margin-left: 54px;
+            border-radius: 20px;
+        }
+
+        .prog-item {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-weight: bold;
+            color: #FFF5D6;
+            background-color: #183047;
+            margin-left: 67px;
+            padding-right: 76px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            align: middle 
+        }
+
+        .programa-dia {
+            background-color: #fdf5e6;
+            border-left: 6px solid #3e4a4e;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border-radius: 6px;
+        }
+        .dia-titulo {
+            background-color: #3e4a4e;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .programa-t {
+        background-color: #3e4a4e;
+        color: white;
+        padding: 0.75rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        }
+
     </style>
 </head>
 
@@ -83,8 +133,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <div class="conteiner">
-                    <ul class="navbar-nav text-center me-auto" id="myTab" role="tablist">
+                <div class="container justify-content-center">
+                    <ul class="navbar-nav text-center justify-content-center align-items-center" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">HOME</button>
                         </li>
@@ -109,10 +159,12 @@
                             <button class="nav-link" id="contatos-tab" data-bs-toggle="tab" data-bs-target="#contatos-tab-pane" type="button" role="tab" aria-controls="contatos-tab-pane" aria-selected="false">CONTATOS</button>
                         </li>
                     </ul>
+                </div>
             </div>
         </div>
     </nav>
     <div class="tab-content" id="mytabcontent">
+        <!--HOME ABA-->>
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab">
             <!--email  -->
             <!-- Banner principal -->
@@ -378,15 +430,155 @@
                                 <rect x="18" y="18" width="1800" height="991" rx="50" fill="white"/>
                                 </clipPath>
                                 </defs>
-                                </svg>
+                            </svg>
                                 
                         </div>
                     </div>
                 </div>
             </div>    
         </div>
-    </div>
+    
+        
+        <!--PROGRAMAÇÂO ABA-->>
+        <div class="tab-pane fade show" id="programação-tab-pane" role="tabpanel" aria-labelledby="programação-tab">
+            <!--email  -->
+            <!-- Banner principal -->
+            <div class="container py-4">
+                <div class="main-banner text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Carranca logo.png" alt="Logo FORPROEX">
+                        </div>
+                        <div class="col-md-8">
+                            <img src="./assets/Frame 1000009359.png" alt="Texto FORPROEX">
+                        </div>
+                    </div>
+                </div>
 
+                  <div class="programa-t">PROGRAMAÇÃO</div>
+
+                       <!-- Segunda -->
+                    <div class="programa-dia">
+                    <div class="dia-titulo">21|07: Segunda-Feira</div>
+                    <ul class="mt-2">
+                        <li><strong>Período de deslocamento dos membros para o FORPROEX</strong></li>
+                        <li><strong>17h às 18h:</strong> Visita técnica ao território: River Sunset</li>
+                    </ul>
+                    </div>
+
+                    <!-- Terça -->
+                    <div class="programa-dia">
+                    <div class="dia-titulo">22|07: Terça-Feira</div>
+                    <ul class="mt-2">
+                        <li><strong>7h30 às 8h30:</strong> Credenciamento e Coffee-break - <em>Cine Teatro Sede Petrolina</em></li>
+                        <li><strong>8h30 às 9h30:</strong> Orquestra - IF SERTÃO - <em>Cine Teatro</em></li>
+                        <li><strong>9h30:</strong> Abertura oficial - <em>Cine Teatro</em></li>
+                        <li><strong>9h:</strong> Conferência - “Avaliação da Extensão Universitária...”</li>
+                        <li><strong>12h30:</strong> Almoço por adesão - <em>Restaurante Raízes</em></li>
+                        <li><strong>14h às 18h:</strong> Visita ao Espaço Plural - <em>Juazeiro/BA</em></li>
+                        <li><strong>19h:</strong> Jantar por adesão - <em>Bodódromo</em></li>
+                    </ul>
+                    </div>
+
+                    <!-- Quarta -->
+                    <div class="programa-dia">
+                    <div class="dia-titulo">23|07: Quarta-Feira</div>
+                    <ul class="mt-2">
+                        <li><strong>8h30:</strong> Apresentação cultural - <em>Território Azeviche</em></li>
+                        <li><strong>9h às 12h:</strong> Conferência - “Selo ODS: experiências exitosas”</li>
+                        <li><strong>12h30:</strong> Almoço por adesão - <em>DA VILLA</em></li>
+                        <li><strong>14h às 18h:</strong> Debate + Coffee + Projeto Dança no Velho Chico</li>
+                        <li><strong>18h:</strong> Jantar por adesão - <em>Casa Brasilis | Rio Rooftop</em></li>
+                    </ul>
+                    </div>
+
+                    <!-- Quinta -->
+                    <div class="programa-dia">
+                    <div class="dia-titulo">24|07: Quinta-Feira</div>
+                    <ul class="mt-2">
+                        <li><strong>8h:</strong> Carta do Vale do São Francisco - <em>Cine Teatro</em></li>
+                        <li><strong>11h:</strong> Visita técnica ao território</li>
+                        <li><strong>12h:</strong> Almoço por adesão - <em>DuCheff</em></li>
+                        <li><strong>14h:</strong> Visita técnica - <em>Vinícolas Rio Sol</em></li>
+                        <li><strong>18h:</strong> Confraternização - <em>Orla de Juazeiro - BOSSA NOVA</em></li>
+                    </ul>
+                    </div>
+
+                    <!-- Sexta -->
+                    <div class="programa-dia">
+                    <div class="dia-titulo">25|07: Sexta-Feira</div>
+                    <p><strong>Período de retorno dos membros para o FORPROEX</strong></p>
+                    </div>
+            </div>
+        </div>
+
+        <!--CONVIDADOS-->
+        <div class="tab-pane fade show" id="convidados-tab-pane" role="tabpanel" aria-labelledby="convidados-tab">
+            <div class="container py-4">
+                <div class="main-banner text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Carranca logo.png" alt="Logo FORPROEX">
+                        </div>
+                        <div class="col-md-8">
+                            <img src="./assets/Frame 1000009359.png" alt="Texto FORPROEX">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programa-t">PÁGINA EM ANDAMENTO</div>
+
+                <div class="programa-dia">
+                    <p><strong>Estamos trabalhando nessa seção. Agradecemos sua atenção.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!--LOCAL-->
+        <div class="tab-pane fade show" id="local-tab-pane" role="tabpanel" aria-labelledby="local-tab">
+          <div class="container py-4">
+                <div class="main-banner text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Carranca logo.png" alt="Logo FORPROEX">
+                        </div>
+                        <div class="col-md-8">
+                            <img src="./assets/Frame 1000009359.png" alt="Texto FORPROEX">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programa-t">PÁGINA EM ANDAMENTO</div>
+
+                <div class="programa-dia">
+                    <p><strong>Estamos trabalhando nessa seção. Agradecemos sua atenção.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!--CONTATOS-->
+        <div class="tab-pane fade show" id="contatos-tab-pane" role="tabpanel" aria-labelledby="contatos-tab">
+            <div class="container py-4">
+                <div class="main-banner text-center">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <img src="./assets/Carranca logo.png" alt="Logo FORPROEX">
+                        </div>
+                        <div class="col-md-8">
+                            <img src="./assets/Frame 1000009359.png" alt="Texto FORPROEX">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="programa-t">PÁGINA EM ANDAMENTO</div>
+
+                <div class="programa-dia">
+                    <p><strong>Estamos trabalhando nessa seção. Agradecemos sua atenção.</strong></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
             <!-- Rodapé -->
             <footer>
                 <div class="container">
